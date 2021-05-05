@@ -3,7 +3,7 @@ import _ from 'lodash'
 // ====================================================
 // Rules
 // ====================================================
-// These can also come from a validation lib like Yup/Joi
+// These can also come from a validation lib like Yup/Joi (with slight modifications to helpers below)
 
 export const required = (value) => {
   return value ? undefined : 'This field is required'
